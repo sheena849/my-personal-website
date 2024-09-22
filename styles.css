@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444;
+    padding: 10px;
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 24px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navbar .menu {
+    display: flex;
+}
+
+.navbar .menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar .menu a:hover {
+    background-color: #575757;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+}
+
+.title {
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.profile-image {
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 300px;
+    border: 5px solid purple;
+}
+
+.description {
+    max-width: 600px;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+.more-about-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.more-about-button:hover {
+    background-color: #0056b3;
+}
+
+#about {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.about-info {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.school-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.school-column {
+    flex: 1;
+    padding: 10px;
+    text-align: left;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: blue;
+    margin: 0 10px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.social-media {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.contact-form {
+    flex: 1;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
